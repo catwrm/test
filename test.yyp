@@ -6,6 +6,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
     {"id":{"name":"sPlayerIdleB","path":"sprites/sPlayerIdleB/sPlayerIdleB.yy",},"order":1,},
+    {"id":{"name":"egg","path":"sprites/egg/egg.yy",},"order":11,},
     {"id":{"name":"oFriend","path":"objects/oFriend/oFriend.yy",},"order":10,},
     {"id":{"name":"sPlayerWalkR","path":"sprites/sPlayerWalkR/sPlayerWalkR.yy",},"order":6,},
     {"id":{"name":"sPlayerIdleL","path":"sprites/sPlayerIdleL/sPlayerIdleL.yy",},"order":2,},
