@@ -9,14 +9,16 @@ if (levelTimer <= 0)
 
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-jump = keyboard_check_pressed(vk_space);
+back = keyboard_check(vk_up);
+forward = keyboard_check(vk_down);
 
 //what direction player is moving
 xDirection = right - left;
+yDirection = forward - back;
 
 //speed + direction player is moving at
-xVector = xDirection * xSpeed
-yVector = yVector + grv;
+xVector = xDirection * Speed
+yVector = yDirection * Speed;
 
 //position and movement of player
 
@@ -45,25 +47,12 @@ if (place_meeting(x, y + yVector, oWall))
 		while (!place_meeting(x, y + sign(yVector), oWall))
 		{
 			//move one pixel in vertical direction plaer is moving
-			y = y + sign(yVector);
+			y = y + yDirection;
 		}
 		yVector = 0;
 	}
 //otherwise move as normal
 y = y + yVector;
-
-//if touching ground and jump is presed, fly
-if (place_meeting(x, y + 1, oWall) and (jump))
-{
-	yVector = jumpForce;
-}
-
-//die + restart level
-if (y >= room_height)
-
-	{
-		PlayerDeath();
-	}
 
 //sprite change
 if (keyboard_check(vk_right))
@@ -76,6 +65,18 @@ else
 	sprite_index = sPlayerWalkL;
 	else
 	{
-		sprite_index = sPlayerIdle;
+		if (keyboard_check(vk_up))
+{
+	sprite_index = sPlayerWalkB;
+}
+else
+if (keyboard_check(vk_down))
+{
+	sprite_index = sPlayerWalk;
+}
+else
+{
+	sprite_index = sPlayerIdle
 	}
+}
 }
