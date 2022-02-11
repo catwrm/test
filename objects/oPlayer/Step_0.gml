@@ -1,12 +1,5 @@
 //code that runs every frame
 
-levelTimer -= 1/room_speed;
-
-if (levelTimer <= 0)
-{
-	room_restart();
-}
-
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
 back = keyboard_check(vk_up);

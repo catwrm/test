@@ -1,11 +1,3 @@
-//code that runs every frame
-
-levelTimer -= 1/room_speed;
-
-if (levelTimer <= 0)
-{
-	room_restart();
-}
 
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
@@ -67,7 +59,7 @@ else
 	{
 		if (keyboard_check(vk_up))
 {
-	sprite_index = sPlayerWalkB;
+	sprite_index = sSiblingWalkB;
 }
 else
 if (keyboard_check(vk_down))
@@ -76,7 +68,7 @@ if (keyboard_check(vk_down))
 }
 else
 {
-	sprite_index = sPlayerIdle
+	sprite_index = sSiblingIdle
 	}
 }
 }
