@@ -3,7 +3,7 @@
     "name": "sGrass",
     "path": "sprites/sGrass/sGrass.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

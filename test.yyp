@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":0,},
+    {"id":{"name":"sMask","path":"sprites/sMask/sMask.yy",},"order":11,},
     {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":8,},
     {"id":{"name":"sPlayerWalkL","path":"sprites/sPlayerWalkL/sPlayerWalkL.yy",},"order":7,},
     {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"order":15,},
@@ -15,10 +16,12 @@
     {"id":{"name":"sSiblingWalkB","path":"sprites/sSiblingWalkB/sSiblingWalkB.yy",},"order":1,},
     {"id":{"name":"sPlayerIdle","path":"sprites/sPlayerIdle/sPlayerIdle.yy",},"order":0,},
     {"id":{"name":"sSiblingWalkL","path":"sprites/sSiblingWalkL/sSiblingWalkL.yy",},"order":2,},
+    {"id":{"name":"oBarrier","path":"objects/oBarrier/oBarrier.yy",},"order":17,},
     {"id":{"name":"sGrass","path":"sprites/sGrass/sGrass.yy",},"order":3,},
     {"id":{"name":"egg","path":"sprites/egg/egg.yy",},"order":1,},
     {"id":{"name":"sPlayerWalkR","path":"sprites/sPlayerWalkR/sPlayerWalkR.yy",},"order":6,},
     {"id":{"name":"sPavement","path":"sprites/sPavement/sPavement.yy",},"order":6,},
+    {"id":{"name":"OutsideSchool","path":"rooms/OutsideSchool/OutsideSchool.yy",},"order":0,},
     {"id":{"name":"sPlayerWalkB","path":"sprites/sPlayerWalkB/sPlayerWalkB.yy",},"order":5,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
     {"id":{"name":"oSibling","path":"objects/oSibling/oSibling.yy",},"order":13,},
@@ -26,9 +29,9 @@
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
     {"id":{"name":"oOrb","path":"objects/oOrb/oOrb.yy",},"order":16,},
     {"id":{"name":"sSiblingIdle","path":"sprites/sSiblingIdle/sSiblingIdle.yy",},"order":0,},
+    {"id":{"name":"ForbiddenEntry","path":"scripts/ForbiddenEntry/ForbiddenEntry.yy",},"order":2,},
     {"id":{"name":"sOrbGreen","path":"sprites/sOrbGreen/sOrbGreen.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
-    {"id":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -44,7 +47,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"lvl1","path":"rooms/lvl1/lvl1.yy",},},
+    {"roomId":{"name":"OutsideSchool","path":"rooms/OutsideSchool/OutsideSchool.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

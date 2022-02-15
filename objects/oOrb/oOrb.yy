@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sOrbBlue",
-    "path": "sprites/sOrbBlue/sOrbBlue.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
