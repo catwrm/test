@@ -1,13 +1,14 @@
 {
   "resources": [
-    {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":0,},
+    {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":2,},
     {"id":{"name":"sMask","path":"sprites/sMask/sMask.yy",},"order":11,},
-    {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":8,},
+    {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":4,},
     {"id":{"name":"sPlayerWalkL","path":"sprites/sPlayerWalkL/sPlayerWalkL.yy",},"order":7,},
-    {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"order":15,},
+    {"id":{"name":"oTextbox","path":"objects/oTextbox/oTextbox.yy",},"order":0,},
     {"id":{"name":"sOrbBlue","path":"sprites/sOrbBlue/sOrbBlue.yy",},"order":3,},
     {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},"order":4,},
     {"id":{"name":"sBrickWall","path":"sprites/sBrickWall/sBrickWall.yy",},"order":2,},
+    {"id":{"name":"Testdialogue","path":"rooms/Testdialogue/Testdialogue.yy",},"order":3,},
     {"id":{"name":"sOrbYellow","path":"sprites/sOrbYellow/sOrbYellow.yy",},"order":0,},
     {"id":{"name":"sOrbPink","path":"sprites/sOrbPink/sOrbPink.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
@@ -29,6 +30,7 @@
     {"id":{"name":"EnemyHurt","path":"scripts/EnemyHurt/EnemyHurt.yy",},"order":1,},
     {"id":{"name":"oOrb","path":"objects/oOrb/oOrb.yy",},"order":16,},
     {"id":{"name":"sSiblingIdle","path":"sprites/sSiblingIdle/sSiblingIdle.yy",},"order":0,},
+    {"id":{"name":"oSettings","path":"objects/oSettings/oSettings.yy",},"order":1,},
     {"id":{"name":"ForbiddenEntry","path":"scripts/ForbiddenEntry/ForbiddenEntry.yy",},"order":2,},
     {"id":{"name":"sOrbGreen","path":"sprites/sOrbGreen/sOrbGreen.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -47,6 +49,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Testdialogue","path":"rooms/Testdialogue/Testdialogue.yy",},},
     {"roomId":{"name":"OutsideSchool","path":"rooms/OutsideSchool/OutsideSchool.yy",},},
   ],
   "Folders": [
@@ -67,6 +70,7 @@
     {"folderPath":"folders/Sprites/Player.yy","order":0,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Sibling.yy","order":5,"resourceVersion":"1.0","name":"Sibling","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Orbs.yy","order":9,"resourceVersion":"1.0","name":"Orbs","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Dialogue System.yy","order":14,"resourceVersion":"1.0","name":"Dialogue System","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

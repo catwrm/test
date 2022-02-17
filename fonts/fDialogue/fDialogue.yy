@@ -255,8 +255,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "Dialogue System",
+    "path": "folders/Dialogue System.yy",
   },
   "resourceVersion": "1.0",
   "name": "fDialogue",
