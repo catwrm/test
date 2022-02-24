@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":2,},
+    {"id":{"name":"SchoolBell","path":"sounds/SchoolBell/SchoolBell.yy",},"order":0,},
     {"id":{"name":"sMask","path":"sprites/sMask/sMask.yy",},"order":11,},
     {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":4,},
     {"id":{"name":"sPlayerWalkL","path":"sprites/sPlayerWalkL/sPlayerWalkL.yy",},"order":7,},
@@ -8,7 +9,7 @@
     {"id":{"name":"sOrbBlue","path":"sprites/sOrbBlue/sOrbBlue.yy",},"order":3,},
     {"id":{"name":"sPlayerWalk","path":"sprites/sPlayerWalk/sPlayerWalk.yy",},"order":4,},
     {"id":{"name":"sBrickWall","path":"sprites/sBrickWall/sBrickWall.yy",},"order":2,},
-    {"id":{"name":"Testdialogue","path":"rooms/Testdialogue/Testdialogue.yy",},"order":3,},
+    {"id":{"name":"Testdialogue","path":"rooms/Testdialogue/Testdialogue.yy",},"order":1,},
     {"id":{"name":"sOrbYellow","path":"sprites/sOrbYellow/sOrbYellow.yy",},"order":0,},
     {"id":{"name":"sOrbPink","path":"sprites/sOrbPink/sOrbPink.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
