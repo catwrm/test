@@ -14,8 +14,9 @@ txtb_img_spd = 0;
 page = 0;
 page_number = 0;
 text[0] = "jhsakdddddddddhgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgfdjhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhg";
+text[1] = "test"
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_speed = 1;
 
-global.setup = true
+global.setup = false

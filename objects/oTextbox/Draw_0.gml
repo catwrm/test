@@ -47,11 +47,14 @@ if accept_key
 					{
 						page++;
 						draw_char = 0;
+						audio_play_sound(NextDialogue , 1 , 1)
 					}
 					//destroy textbox
 				else
 					{
 					instance_destroy();
+					audio_play_sound(CloseDialogue , 1 , 1)
+					room_goto_next()
 					}
 			}
 		//if not done typing
