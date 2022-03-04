@@ -13,8 +13,9 @@ txtb_img_spd = 0;
 //text
 page = 0;
 page_number = 0;
-text[0] = "jhsakdddddddddhgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjgfdjhkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhg";
-text[1] = "test"
+text[0] = "Imagine waking up in the world you've always daydreamed of..";
+text[1] = "The world I always dreamed of..."
+text[3] = "...It's here.."
 text_length[0] = string_length(text[0]);
 draw_char = 0;
 text_speed = 1;

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"fDialogue","path":"fonts/fDialogue/fDialogue.yy",},"order":2,},
+    {"id":{"name":"sBlink","path":"sprites/sBlink/sBlink.yy",},"order":13,},
     {"id":{"name":"sMask","path":"sprites/sMask/sMask.yy",},"order":11,},
     {"id":{"name":"NextDialogue","path":"sounds/NextDialogue/NextDialogue.yy",},"order":0,},
     {"id":{"name":"sTextbox","path":"sprites/sTextbox/sTextbox.yy",},"order":4,},
@@ -11,6 +12,7 @@
     {"id":{"name":"sBrickWall","path":"sprites/sBrickWall/sBrickWall.yy",},"order":2,},
     {"id":{"name":"Testdialogue","path":"rooms/Testdialogue/Testdialogue.yy",},"order":1,},
     {"id":{"name":"sOrbYellow","path":"sprites/sOrbYellow/sOrbYellow.yy",},"order":0,},
+    {"id":{"name":"oCharaBlink","path":"objects/oCharaBlink/oCharaBlink.yy",},"order":19,},
     {"id":{"name":"sOrbPink","path":"sprites/sOrbPink/sOrbPink.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sWindow","path":"sprites/sWindow/sWindow.yy",},"order":12,},

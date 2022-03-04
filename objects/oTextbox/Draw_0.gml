@@ -20,8 +20,6 @@ if global.setup == false
 				//find how many charas on each page and store number in text_length array
 				text_length[p] = string_length(text[p]);
 				
-				//get the x position for the textbox
-					text_x_offset[p] = 0;
 				
 			}
 	}

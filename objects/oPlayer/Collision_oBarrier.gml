@@ -1,3 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-script_execute(ForbiddenEntry)
+global.setup = false
+
+with oTextbox
+{
+	event_perform(ev_draw , 0);
+}
